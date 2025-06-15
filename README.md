@@ -1,4 +1,3 @@
-```md
 # 📊 Data Engineering Project – Frontend
 
 [![Vercel Deployment](https://img.shields.io/badge/deployed%20on-vercel-000?logo=vercel&labelColor=000)](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
@@ -33,22 +32,15 @@ The **frontend** of the Data Engineering Project — a modern single-page applic
 ---
 
 ## 📁 Project Structure
+├── src/ # App source files
+├── public/ or index.html # Vite HTML entry point
+├── package.json # Project metadata & scripts
+├── vite.config.ts # Vite build configuration
+├── tailwind.config.js # Tailwind custom styles
+├── vercel.json # Vercel deployment config
+├── Dockerfile # Docker container definition
+├── .github/workflows/ # CI pipeline
 
-```
-
-.
-├── src/                   # App source files
-├── public/ or index.html  # Vite HTML entry point
-├── package.json           # Project metadata & scripts
-├── vite.config.ts         # Vite build configuration
-├── tailwind.config.js     # Tailwind custom styles
-├── vercel.json            # Vercel deployment config
-├── Dockerfile             # Docker container definition
-├── .github/workflows/     # CI pipeline
-
-````
-
----
 
 ## 🧪 Scripts
 
@@ -67,55 +59,40 @@ To build and run the app in a Docker container:
 ```bash
 docker build -t vite-app .
 docker run -p 3000:3000 vite-app
-````
+Then visit: http://localhost:3000
 
-Then visit: [http://localhost:3000](http://localhost:3000)
+3000
 
----
-
-## 🔄 CI/CD Pipeline
-
+🔄 CI/CD Pipeline
 This project uses GitHub Actions to validate every push:
 
-* ✅ Install dependencies
-* ✅ Lint the codebase
-* ✅ Build the project
+✅ Install dependencies
+
+✅ Lint the codebase
+
+✅ Build the project
 
 Defined in:
-`.github/workflows/frontend.yml`
+.github/workflows/frontend.yml
 
 Triggers:
-On every push to the `master` branch.
+On every push to the master branch.
 
----
+🛠️ Deployment (Vercel)
+The project is deployed using Vercel, configured via vercel.json.
 
-## 🛠️ Deployment (Vercel)
+🔧 Production Deployment:
+🟢 Automatically builds on push to master
 
-The project is deployed using [Vercel](https://vercel.com), configured via `vercel.json`.
+🏗️ Runs vite build and serves from dist/
 
-### 🔧 Production Deployment:
-
-* 🟢 Automatically builds on push to `master`
-* 🏗️ Runs `vite build` and serves from `dist/`
-
-### 🔧 Manual Deployment:
-
-```bash
+🔧 Manual Deployment:
+bash
 vercel --prod
-```
+This project is licensed under the MIT License
 
----
+text
 
-## 👨‍💻 Author
-
-**[@devtechster](https://github.com/devtechster)**
-Built with ❤️ using open-source technologies.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License]
 MIT License
 
 Copyright (c) 2025 devtechster
@@ -137,6 +114,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-```
