@@ -1,7 +1,3 @@
-Great! Here's an enhanced version of your `README.md` that includes **badges**, a placeholder for **screenshots/demo**, and highlights your project as production-ready. You can paste this directly into your project.
-
----
-
 ```md
 # 📊 Data Engineering Project – Frontend
 
