@@ -5,30 +5,30 @@
 [![Build Status](https://github.com/devtechster/dataEngineering/actions/workflows/frontend.yml/badge.svg)](https://github.com/devtechster/dataEngineering/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This is the **frontend** for the Data Engineering Project, built with modern web tools like **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. It is containerized using Docker, includes CI/CD via GitHub Actions, and is deployed on **Vercel**.
+The **frontend** of the Data Engineering Project — a modern single-page application built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. It supports Docker-based containerization, CI/CD via GitHub Actions, and is deployed on **Vercel**.
 
 ---
 
-## 🔗 Live Demo
+## 🌐 Live Demo
 
-🌐 **[View Live App](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)**
+🔗 [https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
 
 ---
 
 ## 📸 Screenshots / Demo
 
-> _You can add screenshots or GIFs here to show off your UI!_
+> _Coming soon: Include screenshots or GIFs here!_
 
 ---
 
 ## 🚀 Tech Stack
 
-- ⚛️ React + TypeScript
-- ⚡ Vite for ultra-fast builds
-- 🎨 Tailwind CSS for styling
-- 🐳 Docker support for containerized deployment
-- ✅ GitHub Actions for CI
-- ☁️ Hosted on [Vercel](https://vercel.com)
+- ⚛️ **React** (with TypeScript)
+- ⚡ **Vite** (build tool)
+- 🎨 **Tailwind CSS** (utility-first styling)
+- 🐳 **Docker** (for containerization)
+- 🛠️ **GitHub Actions** (for CI)
+- ☁️ **Vercel** (deployment platform)
 
 ---
 
@@ -44,7 +44,7 @@ This is the **frontend** for the Data Engineering Project, built with modern web
 ├── tailwind.config.js     # Tailwind custom styles
 ├── vercel.json            # Vercel deployment config
 ├── Dockerfile             # Docker container definition
-├── .github/workflows/     # CI config
+├── .github/workflows/     # CI pipeline
 
 ````
 
@@ -52,49 +52,53 @@ This is the **frontend** for the Data Engineering Project, built with modern web
 
 ## 🧪 Scripts
 
-| Command            | Description                    |
-|--------------------|--------------------------------|
-| `npm run dev`      | Run dev server on `localhost`  |
-| `npm run build`    | Build production version       |
-| `npm run preview`  | Preview built app locally      |
+| Command             | Description                    |
+|---------------------|--------------------------------|
+| `npm run dev`       | Run dev server on `localhost`  |
+| `npm run build`     | Build production bundle        |
+| `npm run preview`   | Preview the production build   |
 
 ---
 
 ## 🐳 Docker
 
-To run this app inside a container:
+To build and run the app in a Docker container:
 
 ```bash
 docker build -t vite-app .
 docker run -p 3000:3000 vite-app
 ````
 
-Visit: [http://localhost:3000](http://localhost:3000)
+Then visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔄 CI/CD (GitHub Actions)
+## 🔄 CI/CD Pipeline
 
-This project includes a GitHub Actions workflow:
+This project uses GitHub Actions to validate every push:
 
-* ✅ Dependency install
-* ✅ Lint checks
-* ✅ Build test
+* ✅ Install dependencies
+* ✅ Lint the codebase
+* ✅ Build the project
 
-Defined in `.github/workflows/frontend.yml`.
-Triggers on push to `master`.
+Defined in:
+`.github/workflows/frontend.yml`
+
+Triggers:
+On every push to the `master` branch.
 
 ---
 
 ## 🛠️ Deployment (Vercel)
 
-Deployed using [Vercel](https://vercel.com):
+The project is deployed using [Vercel](https://vercel.com), configured via `vercel.json`.
 
-* Auto builds from `master` branch
-* Uses `vite build` and outputs to `dist/`
-* Configured via `vercel.json`
+### 🔧 Production Deployment:
 
-To deploy manually:
+* 🟢 Automatically builds on push to `master`
+* 🏗️ Runs `vite build` and serves from `dist/`
+
+### 🔧 Manual Deployment:
 
 ```bash
 vercel --prod
@@ -102,13 +106,15 @@ vercel --prod
 
 ---
 
-## 🙋‍♂️ Author
+## 👨‍💻 Author
 
 **[@devtechster](https://github.com/devtechster)**
-Built with ❤️ and open-source tech.
+Built with ❤️ using open-source technologies.
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+```
