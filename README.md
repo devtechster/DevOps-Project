@@ -32,15 +32,17 @@ The **frontend** of the DevOps Project — a modern single-page application buil
 ---
 
 ## 📁 Project Structure
-├── src/ # App source files
-├── public/ or index.html # Vite HTML entry point
-├── package.json # Project metadata & scripts
-├── vite.config.ts # Vite build configuration
-├── tailwind.config.js # Tailwind custom styles
-├── vercel.json # Vercel deployment config
-├── Dockerfile # Docker container definition
-├── .github/workflows/ # CI pipeline
 
+- 📂 `src/` – App source files
+- 🧾 `index.html` – Vite HTML entry point
+- 📦 `package.json` – Project metadata & scripts
+- ⚙️ `vite.config.ts` – Vite build configuration
+- 🎨 `tailwind.config.js` – Tailwind custom styles
+- 🔧 `vercel.json` – Vercel deployment config
+- 🐳 `Dockerfile` – Docker container definition
+- 🚀 `.github/workflows/` – GitHub Actions CI pipeline
+
+----
 
 ## 🧪 Scripts
 
