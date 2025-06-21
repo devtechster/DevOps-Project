@@ -10,7 +10,7 @@ The **frontend** of the DevOps Project — a modern single-page application buil
 
 ## 🌐 Live Demo
 
-🔗 [https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
+🔗 ![https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
 
 ---
 
