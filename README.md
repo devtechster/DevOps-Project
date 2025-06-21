@@ -1,10 +1,10 @@
-# 📊 Data Engineering Project – Frontend
+# 📊 DEvOps – Frontend
 
 [![Vercel Deployment](https://img.shields.io/badge/deployed%20on-vercel-000?logo=vercel&labelColor=000)](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
 [![Build Status](https://github.com/devtechster/dataEngineering/actions/workflows/frontend.yml/badge.svg)](https://github.com/devtechster/dataEngineering/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-The **frontend** of the Data Engineering Project — a modern single-page application built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. It supports Docker-based containerization, CI/CD via GitHub Actions, and is deployed on **Vercel**.
+The **frontend** of the DevOps Project — a modern single-page application built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. It supports Docker-based containerization, CI/CD via GitHub Actions, and is deployed on **Vercel**.
 
 ---
 
