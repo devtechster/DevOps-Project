@@ -1,4 +1,4 @@
-# 📊 DEvOps – Frontend
+# 📊 DevOps – Frontend
 
 [![Vercel Deployment](https://img.shields.io/badge/deployed%20on-vercel-000?logo=vercel&labelColor=000)](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
 [![Build Status](https://github.com/devtechster/dataEngineering/actions/workflows/frontend.yml/badge.svg)](https://github.com/devtechster/dataEngineering/actions)
