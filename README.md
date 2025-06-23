@@ -8,15 +8,7 @@ The **frontend** of the DevOps Project — a modern single-page application buil
 
 ---
 
-## 🌐 [Live Demo!](https://dataengineeringproject-kc11zwaxe-dev-techsters-projects.vercel.app)
-
----
-
-## 📸 Screenshots / Demo
-
-> _Coming soon: Include screenshots or GIFs here!_
-
----
+## 🌐 [Live Demo](https://dev-ops-project-dev-techsters-projects.vercel.app/)
 
 ## 🚀 Tech Stack
 
